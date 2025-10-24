@@ -1,0 +1,13 @@
+public class Water4 {
+    public static void main(String[] args){
+        int[] waterConsumption = new int[7];
+        int dailyConsumption = 1200;
+
+        for (int i =0; i < waterConsumption.length; i++){
+            waterConsumption[i] = dailyConsumption;
+            dailyConsumption = dailyConsumption + 100;
+        }
+        System.out.println("Данные занесены в приложение!");
+        System.out.println(dailyConsumption);
+    }
+}
