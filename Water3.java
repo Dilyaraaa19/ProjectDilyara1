@@ -1,0 +1,10 @@
+public class Water3 {
+    public static void main(String[] args){
+        int[] waterConsumption = {100, 200, 150, 300, 200, 200, 250, 300, 150, 400, 1000, 100};
+
+        System.out.println("Сколько всего записей об употреблении воды? ");
+        int recordsCount;
+        recordsCount = waterConsumption.length;
+        System.out.println(recordsCount);
+    }
+}
